@@ -34,6 +34,7 @@ $Headers = @{
 Invoke-RestMethod -Uri 'https://172.16.1.4:9200/win11-logs/_doc' -Method Post -Headers $Headers -Body ([System.Text.Encoding]::UTF8.GetBytes($LogBody))
 ```
 
+- test 成功的
 
 ```bash
 # 1. 填入您的正確帳密
